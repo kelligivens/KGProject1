@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kirang+Haerang');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,200,300,400');
 
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
@@ -32,20 +32,25 @@
 .slogan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
-  padding-top: 26px;
+  font-size: 20px;
+  padding-top: 35px;
 }
 .links{
   padding: 26px;
+  text-align: right;
 }
 
-.links a{
-  color: black;
-  font-size: 25px;
+.links a {
+  color: #CC201F; 
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
   border-bottom: 1px solid #dfdfdf;
 }
 
 header {
-  border-top: 9px solid #222222;
+  border-top: 9px solid #f84342;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 hr {
@@ -53,17 +58,18 @@ hr {
 }
 
 h1 {
-  font-family: 'Kirang Haerang', cursive;
+  font-family: 'Barlow Semi Condensed', sans-serif, 100;
 }
 
 h2 {
-  font-family: 'Kirang Haerang', cursive;
+ font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .next-quote {
   color:#CC201F; 
   font-family: 'Work Sans', sans-serif;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .footer-blurb {
@@ -94,8 +100,9 @@ h2 {
 }
 
 h2 span {
-  color: #dddddd;
-  font-family: 'Kirang Haerang', cursive;
+ color: #dfdfdf;
+ font-family: 'Barlow Semi Condensed', sans-serif;
+ font-weight: bold;
 }
 
 ::selection {
