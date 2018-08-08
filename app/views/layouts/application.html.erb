@@ -13,16 +13,16 @@
          <%= link_to root_path, class: 'logo' do %>
           <div class="circle">
             <br />
-            BEING
+            THE BRAVE
+            <br />
+            ARE ALWAYS
             <br />
             STUBBORN
-            <br />
-            IS GOOD
           </div> 
           <% end %>
         </div>
        <div class="col col-sm-4 hidden-xs-down slogan">
-          Splurting out unsolicited advice about life since 2016
+          Splurting out unsolicited advice about being stubborn since 2018
         </div>
         <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
             <!-- Button trigger modal -->
@@ -44,9 +44,9 @@
           </div>
          <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-            <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "Fear is the disease. Hustle is the antidote." %>
+            <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "Bow, stubborn knees." %>
             <br />
-            <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Travis Kalanick" %>
+            <%= f.input :author, label: "Who is the author of the quote?", placeholder: "William Shakespeare" %>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -69,7 +69,7 @@
         <div class="container">
           <div class="row">
              <div class="col-12 col-sm-6">
-               <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
+               <%= link_to "This isn't stubborn enough, I need more", root_path, class: 'next-quote' %>
             </div>
             <div class="col-12 col-sm-6 footer-blurb">
               Proudly crafted in Tesselaarsdal, South Africa by <a href="http://firehoseproject.com">Kelli Givens</a><br />
